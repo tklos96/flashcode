@@ -1,25 +1,22 @@
 /* === COLOR VARIABLES === */
 :root{
-    --theme-1: #D7D8F5; /* background */
-    --theme-2: #2600AD; /* dark */
-    --theme-3: #B638FF; /* mid */
-    --theme-4: #EB3BDA; /* mid-light */
-    --theme-5: #fff ; /* light */
+    --theme-1: #e8fcfd; /* background (page bkgd)*/
+    --theme-2: #7a86eb; /*  (nav bkgd) */
+    --theme-3: #ffe31f; /*  (nav link)*/
+    --theme-4: #cefafd; /* header color */
+    --theme-5: #ffffff; /* (body bkgd) */
 }
 
 /* === GLOBALS === */
 body {
 	font: 100% Arial, Helvetica, sans-serif;
-	margin: 0;
+	margin: 0px;
 	padding: 0;
     background: var(--theme-1);
 }
 
 main {
-	/*border: 1px solid #000;*/
 	clear: left;
-	margin-top: 7px;
-	padding: 1em;
     background: var(--theme-5);
     
     -webkit-border-radius: 0 0 8px 8px; /* Android â‰¤ 1.6, iOS 1-3.2, Safari 3-4 */
@@ -66,10 +63,13 @@ main p:first-line {
     align-items: flex-end;
     align-content: flex-end;
     padding: 0 10px;
+    background: var(--theme-4);
 }
 
-h1.logo{
-    color: var(--theme-2);
+.banner-image {
+    width: 100%;
+    max-width: 500px;
+    display: block;
 }
 
 header{
