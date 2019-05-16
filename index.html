@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+      <meta charset="UTF-8">
+      <title>FLASH5</title>
+      
+      <link rel="stylesheet" href="/css/normalize.css">
+      <link rel="stylesheet" href="/css/main.css">
+
+      
+      <!-- import jQuery to insert global header and footer -->
+      <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script> 
+      
+      <!-- import global site header -->
+      <script> 
+          $(function(){$("#site-header").load("/header.html");});
+      </script>
+      
+      <!-- import global site footer -->
+      <script>
+          $(function(){$("#site-footer").load("/footer.html");});
+      </script>
+  </head>
+
+  <body>
+      <!-- insert site header -->
+      <header id="site-header"></header>
+      
+      <main class="container centered">
+          <div class="container inner centered">
+              <!-- Quick nav buttons -->
+              <div class="quicknav-container">
+                  <figure class="quicknav">
+                      <figcaption>Quick Start</figcaption>
+                      <a href="/documentation/quick-start.html"><img src="/images/tutorial.jpg" alt="" title="Quick Start" height="70px" width="70px" /> </a>
+                  </figure>
+
+                  <figure class="quicknav">
+                      <figcaption>User Guide</figcaption>
+                      <a href="/documentation/user-guide.html"><img src="/images/user-guide.jpg" alt="" title="User Guide" height="70px" width="70px" /> </a>
+                  </figure>
+
+                  <figure class="quicknav">
+                      <figcaption>News</figcaption>
+                      <a href="/news/"><img src="images/news.jpg" alt="" title="News" height="70px" width="70px" /> </a>
+                  </figure>
+
+                  <figure class="quicknav">
+                      <figcaption>Gallery</figcaption>
+                      <a href="/gallery/"><img src="images/camera.png" alt="" title="Gallery" height="70px" width="70px" /> </a>
+                  </figure>
+              </div>
+
+              <!-- About Flash -->
+              <div class="container centered">
+                  <section class="homepage-about">
+                      <h2>About FLASH Code:</h2>
+
+                      <p>The FLASH code is a publicly available high performance application code which has evolved into a modular, extensible software system from a collection of unconnected legacy codes. FLASH consists of inter-operable modules that can be combined to generate different applications. The FLASH architecture allows arbitrarily many alternative implementations of its components to co-exist and interchange with each other. A simple and elegant mechanism exists for customization of code functionality without the need to modify the core implementation of the source. A built-in unit test framework combined with regression tests that run nightly on multiple platforms verify the code.</p>
+                  </section>
+              </div>
+
+
+              <!-- News -->
+              <div class="container">
+                  <section class="homepage-bottom">
+                      <h2>Lastest News:</h2>
+                      <article>
+                          <h3><a href="https://physical-sciences.uchicago.edu/news/flash-center-turns-20-welcomes-new-director">FLASH Center Turns 20, Welcomes New Director</a></h3>
+                          <p>UChicago PSD Press Release, October 29, 2018</p>
+                          <p>As The Flash Center celebrates its 20th anniversary, Research Assistant Professor Petros Tzeferacos steps into his new role as Director.</p>
+                      </article>
+                  </section>
+
+
+                  <!-- Publications -->
+                  <section class="homepage-bottom">
+                      <h2>Latest Publications:</h2>
+                      <article>
+                          <h3><a href="https://arxiv.org/abs/1806.07359">Numerical Simulation of magnetized jet creation using a hollow ring of laser beams</a></h3>
+                          <p>Lu, Y., Tzeferacos, P., Liang, E., Follett, R.K., Gao, L., Birkel, A., Froula, D.H., Fu, W., Ji, H., Lamb, D., Li, C.K., Sio, H., Petrasso, R. &amp; Wei, M.</p>
+                          <p>Published in Physics of Plasmas, Vol. 26, pp. 022902</p>
+                      </article>
+                  </section>
+              </div>
+          
+          </div>
+      
+      </main>
+    
+      <!-- insert site footer -->
+      <footer id="site-footer"></footer>
+  </body>
+
+</html>
